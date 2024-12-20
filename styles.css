@@ -122,12 +122,13 @@ header{
 }
 
 .socail ul li{
+    font-size: 1.5rem;
     background-color: #222222;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 100%;
     text-align: center;
-    padding-top: .4rem;
+    padding-top: .7rem;
 }
 
 .socail ul li a{
