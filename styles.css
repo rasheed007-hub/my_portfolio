@@ -111,6 +111,7 @@ header{
 .based a i{
     font-size: .6rem;
     margin-left: .3rem;
+    /* margin-top: -1rem; */
 }
 
 
@@ -127,7 +128,7 @@ header{
     width: 2rem;
     border-radius: 100%;
     text-align: center;
-    padding-top: .5rem;
+    padding-top: .4rem;
 }
 
 .socail ul li a{
