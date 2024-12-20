@@ -153,6 +153,9 @@ header{
     .toggle{
         display: block;
     }
+    .toggle i{
+        font-size: 1.4rem;
+    }
 
     .navList{
         display: none;
