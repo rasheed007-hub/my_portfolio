@@ -111,7 +111,6 @@ header{
 .based a i{
     font-size: .6rem;
     margin-left: .3rem;
-    /* margin-top: -1rem; */
 }
 
 
@@ -181,6 +180,8 @@ header{
     .home{
         flex-direction: column; 
         width: calc(100% - 30px); 
+        gap: 2rem;
+        margin-left: 1.3rem;
     }
 
     .homeText{
@@ -189,6 +190,5 @@ header{
 
     .homeImage{
         width: 100%;
-        margin-top: -6rem;
     }
 }
