@@ -316,12 +316,12 @@ body{
     }
 
     .workImg{
-        width: 100%;
+        width: 95%;
         padding-inline: 1.5rem;
     }
 
     .workText{
-        width: 100%;
+        width: 95%;
     }
 
     .workText>p{
