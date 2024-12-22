@@ -533,17 +533,17 @@ footer{
     .foot{
         width: calc(100% - 30px);
     }
-/* 
+
     .inputInnerText{
-        width: 23rem;
+        width: 24rem;
     }
     
     .inputInnerText input{
-        width: 23rem;
+        width: 24rem;
     }
     
     textarea{
-        width: 23rem;
-    } */
+        width: 24rem;
+    }
 
 }
