@@ -306,7 +306,7 @@ body{
     }
 
     .feature{
-        display: none;
+        width: auto;
     }
 
     .feature p{
