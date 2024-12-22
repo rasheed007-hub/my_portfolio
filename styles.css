@@ -302,10 +302,8 @@ body{
 
 @media(max-width:767px) {
 
-    #work{
-        display: none;
+    .projects{
         width: calc(100% - 30px);
-        margin-left: 1rem;
     }
 
     .feature p{
