@@ -230,10 +230,11 @@ body{
     margin-block: 3rem;
     align-items: center;
     margin-bottom: 5rem;
+    justify-content: space-between;
 }
 
 .workImg{
-    width: 50%;
+    width: 45%;
     height: 29rem;
     background-color: #222222;
     border-radius: 10px;
@@ -249,7 +250,7 @@ body{
 }
 
 .workText{
-    width: 50%;
+    width: 45%;
     
 }
 
