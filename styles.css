@@ -524,11 +524,13 @@ footer{
     }
 
     .contactText{
+        border: 1px solid;
         width: auto;
         margin-bottom: 2rem;
     }
 
     .form{
+        border: 1px solid;
         width: auto;
         margin-bottom: 3rem;
     }
