@@ -385,6 +385,9 @@ body{
 }
 
 @media (max-width:767px) {
+    #about{
+        display: none;
+    }
     .about{
         flex-direction: column;
         width: calc(100% - 30px);
@@ -512,9 +515,7 @@ footer{
 }
 
 @media (max-width: 767px){
-    #contact{
-        display: none;
-    }
+
     .contact{
         width: calc(100% - 30px);
         flex-direction: column;
