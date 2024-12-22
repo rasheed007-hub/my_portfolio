@@ -550,6 +550,10 @@ footer{
     textarea{
         width: 23rem;
     }
+
+    .foot{
+        border: 1px solid;
+    }
     
 
 }
