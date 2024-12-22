@@ -193,12 +193,10 @@ body{
     }
 
     .homeText{
-        border: 1px solid;
         width: 100%;
     }
 
     .homeImage{
-        border: 1px solid;
         width: 100%;
     }
 }
@@ -318,13 +316,11 @@ body{
     }
 
     .workImg{
-        border: 1px solid;
         width: 100%;
         padding-inline: 1.5rem;
     }
 
     .workText{
-        border: 1px solid;
         width: 100%;
     }
 
@@ -390,7 +386,6 @@ body{
 
 @media (min-width:320px) and (max-width:800px) {
     .about{
-        border: 1px solid;
         flex-direction: column;
         width: calc(100% - 30px);
     }    
@@ -400,7 +395,6 @@ body{
     }
 
     .story{
-        border: 1px solid;
         margin-block: -5rem;
         width: 100%;
     }
@@ -524,13 +518,11 @@ footer{
     }
 
     .contactText{
-        border: 1px solid;
         width: auto;
         margin-bottom: 2rem;
     }
 
     .form{
-        border: 1px solid;
         width: auto;
         margin-bottom: 3rem;
     }
@@ -550,10 +542,5 @@ footer{
     textarea{
         width: 23rem;
     }
-
-    .foot{
-        border: 1px solid;
-    }
-    
 
 }
