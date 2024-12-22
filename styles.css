@@ -305,6 +305,10 @@ body{
         width: calc(100% - 30px);
     }
 
+    .feature{
+        display: none;
+    }
+
     .feature p{
         width: 20rem;
     }
