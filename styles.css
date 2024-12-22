@@ -535,15 +535,15 @@ footer{
     }
 
     .inputInnerText{
-        width: 24rem;
+        width: 23rem;
     }
     
     .inputInnerText input{
-        width: 24rem;
+        width: 23rem;
     }
     
     textarea{
-        width: 24rem;
+        width: 23rem;
     }
 
 }
