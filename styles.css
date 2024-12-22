@@ -531,4 +531,17 @@ footer{
         width: calc(100% - 30px);
     }
 
+    .inputInnerText{
+        width: 22rem;
+    }
+    
+    .inputInnerText input{
+        width: 22rem;
+    }
+    
+    textarea{
+        width: 22rem;
+    }
+    
+
 }
