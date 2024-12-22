@@ -188,6 +188,7 @@ body{
     .home{
         flex-direction: column;  
         gap: 2rem;
+        width: calc(100% - 30px);
         margin-left: 1rem;
     }
 
@@ -302,6 +303,7 @@ body{
 @media(max-width:767px) {
 
     #work{
+        width: calc(100% - 30px);
         margin-left: 1rem;
     }
 
@@ -385,6 +387,7 @@ body{
 @media (max-width:767px) {
     .about{
         flex-direction: column;
+        width: calc(100% - 30px);
     }    
 
     .about>h1{
@@ -509,7 +512,11 @@ footer{
 }
 
 @media (max-width: 767px){
+    #contact{
+        display: none;
+    }
     .contact{
+        width: calc(100% - 30px);
         flex-direction: column;
     }
 
