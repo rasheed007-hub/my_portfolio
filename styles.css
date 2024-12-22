@@ -396,7 +396,7 @@ body{
 
     .story{
         margin-block: -5rem;
-        width: auto;
+        width: 26rem;
     }
 
     .story>h2{
@@ -532,15 +532,15 @@ footer{
     }
 
     .inputInnerText{
-        width: 22rem;
+        width: 23rem;
     }
     
     .inputInnerText input{
-        width: 22rem;
+        width: 23rem;
     }
     
     textarea{
-        width: 22rem;
+        width: 23rem;
     }
     
 
