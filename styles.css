@@ -303,6 +303,7 @@ body{
 @media(max-width:767px) {
 
     #work{
+        display: none;
         width: calc(100% - 30px);
         margin-left: 1rem;
     }
@@ -385,9 +386,7 @@ body{
 }
 
 @media (max-width:767px) {
-    #about{
-        display: none;
-    }
+
     .about{
         flex-direction: column;
         width: calc(100% - 30px);
