@@ -333,6 +333,9 @@ body{
     }
 }
 
+#about{
+    border-bottom: 1px solid;
+}
 
 .about{
     display: flex;
@@ -346,14 +349,11 @@ body{
     font-weight: 500;
     width: 40%;
     font-size: 5rem;
-    /* margin-top: -1rem; */
-    /* border: 1px solid; */
 }
 
 .story{
     font-family: "Manrope", serif;
     width: 50%;
-    /* border: 1px solid; */
     padding-top: 1rem;
 }
 
@@ -393,6 +393,7 @@ body{
     .about{
         flex-direction: column;
         width: calc(100% - 30px);
+        margin-bottom: 6rem;
     }    
 
     .about>h1{
