@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    border-bottom: 1px solid;
+}
+
+.genLa{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.toggle{
+    display: none;
+}
+
+.navItems{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    opacity: .7;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+}
+
+.navList>ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-transform: capitalize;
+    font-family: "Inter", serif;
+    font-size: .9rem;
+}
+
+.navList ul li a{
+    color: white;
+}
+
+
+.about{
+    display: flex;
+    align-items: start;
+    margin-block: 5rem  4rem;
+}
+
+.about>h1{
+    font-family: "Bebas Neue", serif;
+    font-weight: 500;
+    width: 40%;
+    font-size: 5rem;
+}
+
+.story{
+    font-family: "Manrope", serif;
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.story h2{
+    font-weight: 400;
+}
+
+.story p{
+    margin-block: 2rem;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.links> a{
+    display: block;
+    padding-inline: 1.2rem;
+    padding-block: .7rem;
+    font-size: .8rem;
+    background-color: #D3E97A;
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Manrope", serif;
+    font-weight: 900;
+}
+
+.links> a> i{
+    margin-left: .1rem;
+}
+
+.socail> ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socail> ul> li{
+    font-size: 1.6rem;
+    background-color: #222222;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: .4rem;
+}
+
+.socail >ul> li> a{
+    color: #D3E97A;
+}
+
+@media (max-width:767px) {
+
+    .navItems{
+        width: calc(100% - 30px);
+    }
+
+    .toggle{
+        display: block;
+    }
+    .toggle i{
+        font-size: 1.4rem;
+    }
+
+    .navList{
+        display: none;
+        position: absolute;
+        top: 3rem;
+        z-index: 1;
+        right: 0%;
+        width: 40%;
+        padding-block: 2rem;
+        background-color: white;
+        opacity: .97;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 4rem;
+        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    .navList>ul{
+        flex-direction: column;
+    }
+
+    .navList ul li a{
+        color: black;
+    }
+
+    .about{
+        flex-direction: column;
+        width: calc(100% - 30px);
+        margin-bottom: 8rem;
+    } 
+    
+    .about h1{
+        font-size: 3rem;
+        width: 20rem;
+        margin-bottom: 4rem;
+    }
+
+    .story{
+        margin-block: -5rem;
+        width: 100%;
+    }
+
+}
+
+.image{
+    width: 100%;
+}
+
+.image img{
+    width: 100%;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+@media (max-width:767px){
+    .image{
+        width: calc(100% - 30px);
+    }
+
+    .image img{
+        height: 50vh;
+    }
+}
+
+.capble {
+    display: flex;
+    margin-block: 4rem;
+    align-items: start;
+}
+
+.one{
+    text-transform: capitalize;
+    font-family: "Bebas Neue", serif;
+    width: 40%;
+}
+
+.one h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.two{
+    width: 50%;
+    font-family: "Manrope", serif;
+    padding-top: 1rem;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.two p{
+    margin-bottom: 2rem;
+}
+
+.skills{
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-weight: 500;
+    gap: 1rem;
+    margin-right: 12rem;
+}
+
+.box{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 5rem;
+    height: 2rem;
+    padding-block: .2rem;
+    padding-inline: 1.2rem;
+}
+.box0{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 5rem;
+    height: 2rem;
+    padding-block: .2rem;
+    padding-inline: 1.4rem;
+}
+.box1{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 9rem;
+    height: 2rem;
+    padding-block: .3rem;
+    padding-inline: 1.7rem;
+}
+.box2{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 6rem;
+    height: 2rem;
+    padding-block: .2rem;
+    padding-inline: 1.4rem;
+}
+
+@media (max-width:767px){
+
+    .capble {
+        width: calc(100% - 30px);
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+    }
+    .one h1{
+        font-size: 3rem;
+    }
+    .two{
+        width: 100%;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contact{
+    display: flex;
+    font-family: "Manrope", serif;
+    margin-block: 3rem;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.contactText{
+    width: 50%;
+}
+
+.contactText h2{
+    font-family: "Bebas Neue", serif;
+    font-weight: 500;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.contactText p{
+    font-size: .9rem;
+    font-size: 300;
+}
+
+.contactText a {
+    color: white;
+}
+
+.soc ul{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.soc ul li a{
+    font-size: 1.4rem;
+    color: #D3E97A;
+}
+
+.form{
+    width: 50%;
+    text-transform: capitalize;
+}
+
+.input{
+    padding-bottom: 1rem;
+}
+
+label{
+    font-size: .9rem;
+}
+
+.inputInnerText{
+    width: 25rem;
+    background-color: #222222;
+    padding-inline: 1rem;
+    height: 2rem;
+}
+
+.inputInnerText input{
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    background-color: #222222;
+    padding-inline: 1rem;
+    color: white;
+    width: 25rem;
+    border: none;
+    outline: none;
+    height: 100px;
+}
+
+form>button{
+    margin-top: 3rem;
+    font-family: "Manrope", serif;
+    font-weight: 500;
+    background-color: #D3E97A;
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    font-family: "Manrope", serif;
+    font-size: .8rem;
+}
+
+@media (max-width: 767px){
+
+    .contact{
+        width: calc(100% - 30px);
+        flex-direction: column;
+    }
+
+    .contactText{
+        width: auto;
+        margin-bottom: 2rem;
+    }
+
+    .form{
+        width: auto;
+        margin-bottom: 3rem;
+    }
+
+    .foot{
+        width: calc(100% - 30px);
+    }
+
+    .inputInnerText{
+        width: 23rem;
+    }
+    
+    .inputInnerText input{
+        width: 23rem;
+    }
+    
+    textarea{
+        width: 23rem;
+    }
+
+}
