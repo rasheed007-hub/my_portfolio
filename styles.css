@@ -164,6 +164,7 @@ body{
     .navList{
         display: none;
         position: absolute;
+        border-radius: 5px;
         top: 3rem;
         z-index: 1;
         right: 0%;
@@ -340,8 +341,9 @@ body{
 .about{
     display: flex;
     align-items: start;
-    margin-block: 4rem;
+    margin-top: 4rem;
     margin-bottom: 15rem;
+    justify-content: space-between;
 }
 
 .about>h1{
@@ -386,6 +388,7 @@ body{
 
 .aboutImg>img{
     width: 100%;
+    border-radius: 20px;
 }
 
 @media (max-width:767px) {
@@ -401,7 +404,7 @@ body{
     }
 
     .story{
-        margin-block: -5rem;
+        margin-top: -2rem;
         width: 100%;
     }
 
@@ -552,4 +555,56 @@ footer{
         width: 23rem;
     }
 
+}
+
+@media (max-width:1200px) {
+
+    header{
+        margin-block: 3rem;
+    }
+    .genLa{
+        max-width: 800px;
+        margin: auto;
+    }
+
+    #work{
+        margin-block: 3rem;
+    }
+
+    .workImg{
+        height: 25rem;
+    }
+
+    .workImg > img{
+        margin-top: 5rem;
+    }
+
+    .workText>p{
+        width: 23rem;
+        
+    }
+
+    #about{
+        margin-block: 1rem 4rem;
+    }
+
+    .about{
+        margin-bottom: 4rem;
+    }
+
+    .inputInnerText{
+        width: 22.5rem;
+    }
+    
+    .inputInnerText input{
+        width: 22.5rem;
+    }
+    
+    textarea{
+        width: 22.5rem;
+    }
+
+    .foot{
+        margin-top: 3rem;
+    }
 }
