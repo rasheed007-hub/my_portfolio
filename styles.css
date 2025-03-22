@@ -102,7 +102,7 @@ body{
 }
 
 .dropdown_menu.open{
-    height: 240px;
+    height: 150px;
 }
 
 .dropdown_menu>li>a{
