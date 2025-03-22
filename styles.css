@@ -631,10 +631,10 @@ body{
 @media (max-width:500px) {
     .about{
         flex-direction: column;
-        width: 100%;
     }
     .about>h1{
         font-size: 50px;
+        width: 100%;
     }
     .story{
         width: 100%;
