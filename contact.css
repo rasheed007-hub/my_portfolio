@@ -131,7 +131,7 @@ body{
     color: #D3E97A;
 }
 
-@media (max-width:767px) {
+@media (max-width:1024px) {
 
     .navItems{
         width: calc(100% - 30px);
@@ -197,7 +197,7 @@ body{
 }
 
 
-@media (max-width:767px){
+@media (max-width:1024px){
     .image{
         width: calc(100% - 30px);
     }
@@ -281,7 +281,7 @@ body{
     padding-inline: 1.4rem;
 }
 
-@media (max-width:767px){
+@media (max-width:1024px){
 
     .capble {
         width: calc(100% - 30px);
@@ -403,7 +403,7 @@ footer{
     font-size: .8rem;
 }
 
-@media (max-width: 767px){
+@media (max-width: 1024px){
 
     #contact{
         margin-block: 4rem;
@@ -438,47 +438,6 @@ footer{
     
     textarea{
         width: 23rem;
-    }
-
-}
-@media (max-width:1200px) {
-
-    header{
-        margin-block: 3rem;
-    }
-
-    nav{
-        margin-bottom: 2rem;
-    }
-
-
-    .genLa{
-        max-width: 800px;
-        margin: auto;
-    }
-
-    .image{
-        margin-block: 3rem;
-    }
-
-    .capble{
-        margin-block: 4rem;
-    }
-
-    #contact{
-        margin-block: 4rem;
-    }
-
-    .inputInnerText{
-        width: 22.5rem;
-    }
-    
-    .inputInnerText input{
-        width: 22.5rem;
-    }
-    
-    textarea{
-        width: 22.5rem;
     }
 
 }

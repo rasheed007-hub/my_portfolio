@@ -30,7 +30,7 @@ body{
 }
 
 .navItems{
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -55,6 +55,23 @@ body{
 
 .navList ul li a{
     color: white;
+    transition: .2s;
+}
+
+.navList ul li a:hover{
+    color: #7aa7e9;
+    font-size: 1rem;
+}
+
+.based- a{
+   padding: 10px 20px;
+    font-size: .9rem;
+    background-color: #7aa7e9;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Manrope", serif;
+    font-weight: 900;
 }
 
 .home{
@@ -98,7 +115,7 @@ body{
     padding-inline: .8rem;
     padding-block: .5rem;
     font-size: .8rem;
-    background-color: #D3E97A;
+    background-color: #7aa7e9;
     height: 2rem;
     width: 8rem;
     border-radius: 25px;
@@ -132,7 +149,7 @@ body{
 }
 
 .socail ul li a{
-    color: #D3E97A;
+    color: #7aa7e9;
 }
 
 .homeImage{
@@ -144,7 +161,7 @@ body{
     border-radius: 20px;
 }
 
-@media(max-width:767px) {
+@media(max-width:1024px) {
 
     .header{
         display: none;
@@ -286,7 +303,7 @@ body{
 }
 
 .link a{
-    color: #D3E97A;
+    color: #7aa7e9;
     text-transform: uppercase;
     font-size: .9rem;
     font-weight: 500;
@@ -301,7 +318,7 @@ body{
     font-size: 1.3rem;
 }
 
-@media(max-width:767px) {
+@media(max-width:1024px) {
 
     .projects{
         width: calc(100% - 30px);
@@ -342,7 +359,7 @@ body{
     display: flex;
     align-items: start;
     margin-top: 4rem;
-    margin-bottom: 15rem;
+    margin-bottom: 4rem;
     justify-content: space-between;
 }
 
@@ -368,7 +385,7 @@ body{
 }
 
 .story a{
-    color: #D3E97A;
+    color: #7aa7e9;
     text-transform: uppercase;
     font-size: .9rem;
     font-weight: 500;
@@ -378,20 +395,9 @@ body{
 
 .aboutImg{
     display: none;
-    height: 100%;
 }
 
-.aboutImg{
-    margin-top: 2rem;
-    height: 100%;
-}
-
-.aboutImg>img{
-    width: 100%;
-    border-radius: 20px;
-}
-
-@media (max-width:767px) {
+@media (max-width:1024px) {
 
     .about{
         flex-direction: column;
@@ -423,7 +429,7 @@ body{
 .contact{
     display: flex;
     font-family: "Manrope", serif;
-    margin-block: 3rem;
+    margin-block: 4rem;
     align-items: start;
     justify-content: space-between;
 }
@@ -455,8 +461,8 @@ body{
 }
 
 .soc ul li a{
-    font-size: 1.4rem;
-    color: #D3E97A;
+    font-size: 1.6rem;
+    color: #7aa7e9;
 }
 
 .form{
@@ -464,55 +470,45 @@ body{
     text-transform: capitalize;
 }
 
+
 .input{
-    padding-bottom: 1rem;
-}
-
-label{
-    font-size: .9rem;
-}
-
-.inputInnerText{
-    width: 25rem;
-    background-color: #222222;
-    padding-inline: 1rem;
-    height: 2rem;
-}
-
-.inputInnerText input{
-    width: 25rem;
-    height: 2rem;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: white;
-}
-
-.input1{
     display: flex;
     flex-direction: column;
 }
 
+.input input{
+    background-color: #222222;
+    padding: 10px 20px;
+    width: 80%;
+    height: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
 textarea{
     background-color: #222222;
-    padding-inline: 1rem;
+    padding: 10px 20px;
     color: white;
-    width: 25rem;
+    width: 80%;
     border: none;
     outline: none;
     height: 100px;
+    font-size: 16px;
 }
 
 form>button{
-    margin-top: 3rem;
+    margin-top: 1rem;
     font-family: "Manrope", serif;
     font-weight: 500;
-    background-color: #D3E97A;
+    background-color: #7aa7e9;
     height: 2.5rem;
     width: 7rem;
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 footer{
@@ -522,7 +518,7 @@ footer{
     font-size: .8rem;
 }
 
-@media (max-width: 767px){
+@media (max-width: 1024px){
 
     .contact{
         width: calc(100% - 30px);
@@ -555,56 +551,4 @@ footer{
         width: 23rem;
     }
 
-}
-
-@media (max-width:1200px) {
-
-    header{
-        margin-block: 3rem;
-    }
-    .genLa{
-        max-width: 800px;
-        margin: auto;
-    }
-
-    #work{
-        margin-block: 3rem;
-    }
-
-    .workImg{
-        height: 25rem;
-    }
-
-    .workImg > img{
-        margin-top: 5rem;
-    }
-
-    .workText>p{
-        width: 23rem;
-        
-    }
-
-    #about{
-        margin-block: 1rem 4rem;
-    }
-
-    .about{
-        margin-bottom: 4rem;
-    }
-
-    .inputInnerText{
-        width: 22.5rem;
-    }
-    
-    .inputInnerText input{
-        width: 22.5rem;
-    }
-    
-    textarea{
-        width: 22.5rem;
-    }
-
-    .foot{
-        margin-top: 3rem;
-    }
 }
