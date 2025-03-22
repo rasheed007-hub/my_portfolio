@@ -139,7 +139,7 @@ body{
 }
 
 .socail ul li{
-    font-size: 1.6rem;
+    font-size: 25px;
     background-color: #222222;
     height: 3rem;
     width: 3rem;
@@ -162,60 +162,14 @@ body{
 }
 
 @media(max-width:1024px) {
-
-    .header{
-        display: none;
-    }
-
     .navItems{
-        width: calc(100% - 30px);
+        padding: 0px 30px;
     }
-
-    .toggle{
-        display: block;
-    }
-    .toggle i{
-        font-size: 1.4rem;
-    }
-
-    .navList{
-        display: none;
-        position: absolute;
-        border-radius: 5px;
-        top: 6rem;
-        z-index: 1;
-        right: 0%;
-        width: 40%;
-        padding-block: 2rem;
-        background-color: white;
-        opacity: .97;
-        font-size: 1.5rem;
-        text-align: center;
-        padding-top: 4rem;
-        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
-    }
-
-    .navList>ul{
-        flex-direction: column;
-    }
-
-    .navList ul li a{
-        color: black;
-    }
-
     .home{
-        flex-direction: column;  
-        gap: 2rem;
-        width: calc(100% - 30px);
-        margin-left: 1rem;
+        padding: 50px 30px;
     }
-
-    .homeText{
-        width: 100%;
-    }
-
-    .homeImage{
-        width: 100%;
+    .socail ul li{
+        font-size: 25px;
     }
 }
 
@@ -229,7 +183,7 @@ body{
 }
 
 .feature{
-    width: 27rem;
+    width: 36%;
 }
 
 .feature h1{
@@ -245,6 +199,7 @@ body{
 
 .work{
     display: flex;
+    gap: 3rem;
     margin-block: 3rem;
     align-items: center;
     margin-bottom: 5rem;
@@ -252,19 +207,15 @@ body{
 }
 
 .workImg{
-    width: 45%;
-    height: 29rem;
     background-color: #222222;
     border-radius: 10px;
-    padding-inline: 3rem;
 }
 
 .workImg img{
+    padding: 50px 50px;
     width: 100%;
-    height: 15rem;
-    margin-top: 7rem;
+    height: 20rem;
     border-radius: 10px;
-    border: 2px solid black;
 }
 
 .workText{
@@ -278,7 +229,7 @@ body{
 }
 
 .workText>p{
-    width: 34rem;
+    width: 100%;
     font-weight: 300;
 }
 
@@ -321,34 +272,31 @@ body{
 @media(max-width:1024px) {
 
     .projects{
-        width: calc(100% - 30px);
+        padding: 10px 30px;
     }
-
-    .feature{
-        width: auto;
+    .workText h1{
+        font-size: 21px;
     }
-
-    .feature p{
-        width: 20rem;
-    }
-
-    .work{
-        flex-direction: column;
-    }
-
-    .workImg{
-        width: 100%;
-        padding-inline: 1.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .workText{
-        width: 100%;
-    }
-
+    
     .workText>p{
-        width: auto;
+        font-size: 15px;
     }
+    .one h2{
+        font-size: 18px;
+    }
+    .one h3{
+        font-size: 17px;
+    }
+    .one p{
+        font-size: 15px;
+    }
+    .link a{
+        font-size: 13px;
+    }
+    .link a i{
+        font-size: 15px;
+    }
+
 }
 
 #about{
@@ -398,31 +346,20 @@ body{
 }
 
 @media (max-width:1024px) {
-
     .about{
-        flex-direction: column;
-        width: calc(100% - 30px);
-        margin-bottom: 6rem;
-    }    
-
+        padding: 10px 30px;
+    }
     .about>h1{
-        display: none;
+        font-size: 60px;
     }
-
-    .story{
-        margin-top: -2rem;
-        width: 100%;
+    .story h2{
+        font-size: 24px;
     }
-
-    .story>h2{
-        display: none;
+    .story p{
+        font-size: 16px;
     }
-    .aboutImg{
-        display: block;
-    }
-
-    .aboutImg img{
-        height: 50vh;
+    .story a{
+        font-size: 14px;
     }
 }
 
@@ -474,12 +411,18 @@ body{
 .input{
     display: flex;
     flex-direction: column;
+    padding: 9px 0px;
+}
+.input label{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .2rem;
 }
 
 .input input{
     background-color: #222222;
     padding: 10px 20px;
-    width: 80%;
+    width: 90%;
     height: 30px;
     color: white;
     border: none;
@@ -491,7 +434,7 @@ textarea{
     background-color: #222222;
     padding: 10px 20px;
     color: white;
-    width: 80%;
+    width: 90%;
     border: none;
     outline: none;
     height: 100px;
@@ -512,43 +455,36 @@ form>button{
 }
 
 footer{
-    margin-top: -4rem;
+    margin-top: -5rem;
     margin-bottom: 2rem;
     font-family: "Manrope", serif;
     font-size: .8rem;
 }
 
 @media (max-width: 1024px){
-
     .contact{
-        width: calc(100% - 30px);
-        flex-direction: column;
+        padding: 10px 30px;
     }
-
-    .contactText{
-        width: auto;
-        margin-bottom: 2rem;
+    .contactText h2{
+        font-size: 50px;
     }
-
-    .form{
-        width: auto;
-        margin-bottom: 3rem;
+    .contactText p{
+        font-size: 15px;
+    } 
+    .soc ul li a{
+        font-size: 25px;
     }
-
-    .foot{
-        width: calc(100% - 30px);
+    .input{
+        padding: 5px 0px;
     }
-
-    .inputInnerText{
-        width: 23rem;
+    .input label{
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: .2rem;
     }
-    
-    .inputInnerText input{
-        width: 23rem;
+    footer{
+        padding-left: 15px;
+        margin-top: -6rem;
     }
     
-    textarea{
-        width: 23rem;
-    }
-
 }
