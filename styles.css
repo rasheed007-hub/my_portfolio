@@ -816,6 +816,9 @@ footer{
     .input label{
         font-size: .8rem;
     }
+    .input input{
+        width: 100%;
+    }
     footer{
         margin-top: -40px;
         font-size: 13px;
