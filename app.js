@@ -1,8 +1,8 @@
-function myFunction() {
-    var x = document.querySelector(".navList");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+const toggleBtn = document.querySelector('.toggle_btn')
+const toggleBtnIcon = document.querySelector('.toggle_btn i')
+const downDropMenu = document.querySelector('.dropdown_menu')
+
+toggleBtn.onclick = function () {
+    downDropMenu.classList.toggle('open')
+
+}
