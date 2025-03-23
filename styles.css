@@ -341,7 +341,7 @@ body{
 .app,.app0,.app1,.app2,.app3,.app4,.app5,.app6,.app7,.app8,.app9,.app10,.app11, .app12, .app13, .app14 {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 4s ease, transform 0.6s ease;
+    transition: opacity 2s ease, transform 0.6s ease;
 }
 .show {
     opacity: 1;
