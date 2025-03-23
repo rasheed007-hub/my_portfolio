@@ -654,20 +654,20 @@ body{
         flex-direction: column;
     }
     .about>h1{
-        font-size: 50px;
+        font-size: 40px;
         width: 100%;
     }
     .story{
         width: 100%;
     }
     .story h2{
-        font-size: 22px;
+        font-size: 16px;
     }
     .story p{
-        font-size: 14px;
+        font-size: 13px;
     }
     .story a{
-        font-size: 13px;
+        font-size: 12px;
     }
     .aboutImg{
         display: block;
