@@ -264,8 +264,11 @@ body{
     .story p{
         font-size: 13px;
     }
+    .links{
+        gap: .5rem;
+    }
     .links>a{
-        width: 190px;
+        width: 200px;
     }
     .socail ul li{
         font-size: 19px;
