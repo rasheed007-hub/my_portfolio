@@ -62,6 +62,17 @@ body{
     color: #7aa7e9;
     font-size: 1rem;
 }
+.navItems div, span { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
+@keyframes home {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+.about div, h1 { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
+@keyframes home {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
 
 .based- a{
    padding: 10px 20px;
@@ -295,6 +306,15 @@ body{
 }
 .imag{
     display: none;
+}
+.app,.app0,.app1,.app2,.app3,.app4,.app5,.app6,.app7,.app8,.app9,.app10,.app11 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4s ease, transform 0.6s ease;
+}
+.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media (max-width:1024px){
