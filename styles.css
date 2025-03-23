@@ -94,8 +94,8 @@ body{
     top: 60px;
     height: 0;
     width: 300px;
-    background: rgb(19, 23, 83);
-    backdrop-filter: blur(100px);
+    background: rgba(54, 60, 145, 0.178);
+    backdrop-filter: blur(30px);
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
