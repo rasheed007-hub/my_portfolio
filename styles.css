@@ -216,6 +216,17 @@ body{
     border-radius: 20px;
 }
 
+.home div { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
+@keyframes home {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+.navItems div, span { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
+@keyframes home {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
 @media(max-width:1024px) {
     .navItems{
         padding: 0px 30px;
@@ -329,6 +340,15 @@ body{
 .projects{
     margin-block: 3rem;
     font-family: "Manrope", serif;
+}
+.app,.app0,.app1,.app2,.app3,.app4 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4s ease, transform 0.6s ease;
+}
+.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .feature{
@@ -666,7 +686,6 @@ body{
     align-items: start;
     justify-content: space-between;
 }
-
 .contactText{
     width: 50%;
 }
