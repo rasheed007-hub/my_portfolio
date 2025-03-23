@@ -259,7 +259,7 @@ body{
     }
     .about>h1{
         width: 100%;
-        font-size: 50px;
+        font-size: 2rem;
     }
     .story{
         width: 100%;
@@ -435,7 +435,7 @@ body{
         width: 100%;
     }
     .one h1{
-        font-size: 30px;
+        font-size: 2rem;
     }
     .two{
         width: 100%;
@@ -606,8 +606,8 @@ footer{
         margin-top: 4rem;
         width: 100%;
     }
-    .contactText h2{
-        font-size: 40px;
+    .contactText h1{
+        font-size: 2rem;
     }
     .contactText p{
         font-size: 14px;
