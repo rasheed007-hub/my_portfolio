@@ -24,13 +24,12 @@ body{
     max-width: 1200px;
     margin: auto;
 }
-
 .toggle{
     display: none;
 }
 
 .navItems{
-    margin-top: -4.1rem;
+    margin-top: -4rem;
     background-color: #000;
     display: flex;
     justify-content: space-between;
@@ -121,7 +120,6 @@ body{
     font-weight: 600;
     font-size: 18px;
 }
-
 .dropdown_menu > li{
     padding: 0.7rem;
     display: flex;
