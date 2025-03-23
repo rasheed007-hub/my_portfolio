@@ -30,9 +30,14 @@ body{
 }
 
 .navItems{
-    margin-top: 2rem;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px 150px; 
+    z-index: 1000;
+    max-width: 100%;
 }
 
 .navItems span{
@@ -128,6 +133,7 @@ body{
     padding-block: 3rem;
     justify-content: center;
     gap: 9rem;
+    padding-top: 7rem;
     margin-bottom: 1rem;
 }
 
@@ -218,10 +224,11 @@ body{
 
 @media(max-width:1024px) {
     .navItems{
-        padding: 0px 30px;
+        padding: 15px 30px;
+
     }
     .home{
-        padding: 50px 30px;
+        padding: 65px 30px;
     }
     .socail ul li{
         font-size: 25px;
@@ -266,6 +273,7 @@ body{
 @media(max-width:500px) {
     .home{
         flex-direction: column;
+        padding-top: 75px;
     }
     .homeText{
         width: 100%;

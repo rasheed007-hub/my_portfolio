@@ -21,7 +21,7 @@ body{
 }
 
 .genLa{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -30,9 +30,15 @@ body{
 }
 
 .navItems{
-    margin-top: 2rem;
+    margin-top: -4.1rem;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px 150px; 
+    z-index: 1000;
+    max-width: 100%;
 }
 
 .navItems span{
