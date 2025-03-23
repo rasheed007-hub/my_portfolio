@@ -102,20 +102,33 @@ body{
 }
 
 .dropdown_menu.open{
-    height: 150px;
+    height: 200px;
 }
 
 .dropdown_menu>li>a{
     font-family: "Manrope", serif;
     color: #fff;
 }
+.blu a{
+    padding: 10px 20px;
+     font-size: .9rem;
+     background-color: #7aa7e9;
+     border-radius: 25px;
+     text-transform: uppercase;
+     color: black;
+     font-family: "Manrope", serif;
+     font-weight: 900;
+ }
 
 .dropdown_menu>li>a:hover{
     color: #09a6ce;
     font-weight: 600;
     font-size: 18px;
 }
-
+.blu a:hover{
+    color: black;
+    background-color: white;
+}
 .dropdown_menu > li{
     padding: 0.7rem;
     display: flex;

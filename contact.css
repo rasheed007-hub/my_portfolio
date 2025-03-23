@@ -116,6 +116,18 @@ body{
     font-size: 18px;
 }
 
+.blu a{
+     font-size: .9rem;
+     background-color: #7aa7e9;
+     border-radius: 25px;;
+     text-transform: uppercase;
+     color: black;
+     font-family: "Manrope", serif;
+     font-weight: 900;
+ }
+.blu a:hover{
+    background-color: #fff;
+}
 .dropdown_menu > li{
     padding: 0.7rem;
     display: flex;
@@ -246,7 +258,7 @@ body{
     .dropdown_menu{
         display: block;
     }
-    
+
     .about{
         padding: 0px 30px;
         flex-direction: column;
