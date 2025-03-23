@@ -205,10 +205,10 @@ body{
 @media (max-width:1024px) {
 
     .navItems{
-        padding: 0px 30px;
+        padding: 20px 30px;
     }
     .about{
-        padding: 0px 30px;
+        padding: 29px 30px;
     }
     .socail ul li{
         font-size: 25px;
@@ -217,10 +217,10 @@ body{
 @media (max-width:800px) {
 
     .navItems{
-        padding: 0px 30px;
+        padding: 20px 30px;
     }
     .about{
-        padding: 0px 30px;
+        padding: 29px 30px;
     }
     .about>h1{
         font-size: 50px;
@@ -237,7 +237,7 @@ body{
 }
 @media (max-width:500px) {
     .navItems{
-        padding: 0px 30px;
+        padding: 20px 30px;
     }
     .navItems span{
         font-size: .9rem;
@@ -256,7 +256,7 @@ body{
     }
 
     .about{
-        padding: 0px 30px;
+        padding: 20px 30px;
         flex-direction: column;
     }
     .about>h1{
