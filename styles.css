@@ -222,7 +222,7 @@ body{
     to { opacity: 1 }
 }
 .navItems div, span { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
-@keyframes home {
+@keyframes navItems {
     from { opacity: 0 }
     to { opacity: 1 }
 }
