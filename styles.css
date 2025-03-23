@@ -216,26 +216,6 @@ body{
     border-radius: 20px;
 }
 
-.home div {
-    opacity: 0; /* Start invisible */
-    animation: home 1s ease-in forwards; /* Apply animation */
-}
-
-@keyframes home {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-.navItems div {
-    opacity: 0; /* Start invisible */
-    animation: navItems 1s ease-in forwards; /* Apply animation */
-}
-
-@keyframes navItems {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-
 @media(max-width:1024px) {
     .navItems{
         padding: 0px 30px;
