@@ -224,7 +224,7 @@ body{
 
 @media(max-width:1024px) {
     .navItems{
-        padding: 15px 30px;
+        padding: 20px 30px;
 
     }
     .home{
@@ -273,7 +273,7 @@ body{
 @media(max-width:500px) {
     .home{
         flex-direction: column;
-        padding-top: 75px;
+        padding-top: 80px;
     }
     .homeText{
         width: 100%;
