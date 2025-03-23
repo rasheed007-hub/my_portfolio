@@ -654,7 +654,7 @@ body{
         flex-direction: column;
     }
     .about>h1{
-        font-size: 40px;
+        font-size: 2rem;
         width: 100%;
     }
     .story{
@@ -834,8 +834,8 @@ footer{
         margin-top: 4rem;
         width: 100%;
     }
-    .contactText h2{
-        font-size: 40px;
+    .contactText h1{
+        font-size: 2rem;
     }
     .contactText p{
         font-size: 14px;
