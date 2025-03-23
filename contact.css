@@ -30,7 +30,7 @@ body{
 }
 
 .navItems{
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -55,8 +55,73 @@ body{
 
 .navList ul li a{
     color: white;
+    transition: .2s;
 }
 
+.navList ul li a:hover{
+    color: #7aa7e9;
+    font-size: 1rem;
+}
+
+.based- a{
+   padding: 10px 20px;
+    font-size: .9rem;
+    background-color: #7aa7e9;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Manrope", serif;
+    font-weight: 900;
+}
+.based1 a{
+   padding: 10px 20px;
+    font-size: .9rem;
+    background-color: #7aa7e9;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Manrope", serif;
+    font-weight: 900;
+}
+/* dropdown menu */
+.toggle_btn{
+    display: none;
+}
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 150px;
+}
+
+.dropdown_menu>li>a{
+    font-family: "Manrope", serif;
+    color: #fff;
+}
+
+.dropdown_menu>li>a:hover{
+    color: #09a6ce;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dropdown_menu > li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .about{
     display: flex;
@@ -97,7 +162,7 @@ body{
     padding-inline: 1.2rem;
     padding-block: .7rem;
     font-size: .8rem;
-    background-color: #D3E97A;
+    background-color: #09a6ce;
     height: 2.5rem;
     width: 12rem;
     border-radius: 25px;
@@ -128,82 +193,115 @@ body{
 }
 
 .socail >ul> li> a{
-    color: #D3E97A;
+    color: #09a6ce;
 }
 
 @media (max-width:1024px) {
 
     .navItems{
-        width: calc(100% - 30px);
+        padding: 0px 30px;
     }
+    .about{
+        padding: 0px 30px;
+    }
+    .socail ul li{
+        font-size: 25px;
+    }
+}
+@media (max-width:800px) {
 
-    .toggle{
-        display: block;
+    .navItems{
+        padding: 0px 30px;
     }
-    .toggle i{
-        font-size: 1.4rem;
+    .about{
+        padding: 0px 30px;
     }
+    .about>h1{
+        font-size: 50px;
+    }
+    .story h2{
+        font-size: 20px;
+    }
+    .story p{
+        font-size: 14px;
+    }
+    .socail ul li{
+        font-size: 22px;
+    }
+}
+@media (max-width:500px) {
 
+    .navItems{
+        padding: 0px 30px;
+    }
     .navList{
         display: none;
-        position: absolute;
-        border-radius: 5px;
-        top: 6rem;
-        z-index: 1;
-        right: 0%;
-        width: 40%;
-        padding-block: 2rem;
-        background-color: white;
-        opacity: .97;
-        font-size: 1.5rem;
-        text-align: center;
-        padding-top: 4rem;
-        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
     }
-
-    .navList>ul{
-        flex-direction: column;
+    .based-{
+        display: none;
     }
-
-    .navList ul li a{
-        color: black;
+    .toggle_btn{
+        display: block;
     }
-
-    .about{
-        flex-direction: column;
-        width: calc(100% - 30px);
-        margin-bottom: 4rem;
-    } 
+    .dropdown_menu{
+        display: block;
+    }
     
-    .about h1{
-        font-size: 3rem;
-        width: 20rem;
-        margin-bottom: 2rem;
+    .about{
+        padding: 0px 30px;
+        flex-direction: column;
     }
-
+    .about>h1{
+        width: 100%;
+        font-size: 50px;
+    }
     .story{
         width: 100%;
     }
-
+    .story h2{
+        font-size: 18px;
+    }
+    .story p{
+        font-size: 13px;
+    }
+    .links>a{
+        width: 190px;
+    }
+    .socail ul li{
+        font-size: 19px;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
 }
 
 .image{
     width: 100%;
-    background-color: #d4a57c;
+    background-color: #ebb789;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     margin-bottom: 4rem;
 }
-
+.image img{
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
 
 @media (max-width:1024px){
-    .image{
-        width: calc(100% - 30px);
+   .image{
+        width: 90%;;
     }
+}
 
+@media (max-width:500px){
+   .image{
+        width: 90%;
+        height: 50vh;
+    }
     .image img{
-        height: 47vh;
+        height: 50vh;
     }
 }
 #capble{
@@ -213,6 +311,7 @@ body{
 .capble {
     display: flex;
     margin-block: 4rem;
+    justify-content: space-around;
     align-items: start;
 }
 
@@ -245,59 +344,77 @@ body{
     grid-template-columns: 1fr 1fr 1fr ;
     font-weight: 500;
     gap: 1rem;
-    margin-right: 12rem;
 }
 
 .box{
+    display: flex;
+    justify-content: center;
     border: 1px solid;
     border-radius: 30px;
-    width: 5rem;
-    height: 2rem;
-    padding-block: .2rem;
-    padding-inline: 1.2rem;
-}
-.box0{
-    border: 1px solid;
-    border-radius: 30px;
-    width: 5rem;
-    height: 2rem;
-    padding-block: .2rem;
-    padding-inline: 1.4rem;
-}
-.box1{
-    border: 1px solid;
-    border-radius: 30px;
-    width: 9rem;
-    height: 2rem;
-    padding-block: .3rem;
-    padding-inline: 1.7rem;
-}
-.box2{
-    border: 1px solid;
-    border-radius: 30px;
-    width: 6rem;
-    height: 2rem;
-    padding-block: .2rem;
-    padding-inline: 1.4rem;
+    padding: 10px 20px;
 }
 
 @media (max-width:1024px){
 
-    .capble {
-        width: calc(100% - 30px);
+    .capble{
+        padding: 0px 30px;
+    }
+    .one h1{
+        font-size: 50px;
+    }
+    .two p{
+        font-size: 15px;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box{
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width:800px){
+
+    .capble{
+        padding: 0px 30px;
+    }
+    .one h1{
+        font-size: 40px;
+    }
+    .two p{
+        font-size: 14px;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .box{
+        padding: 10px 10px;
+    }
+}
+@media (max-width:500px){
+
+    .capble{
+        padding: 0px 30px;
         flex-direction: column;
     }
     .one{
         width: 100%;
     }
     .one h1{
-        font-size: 3rem;
+        font-size: 30px;
     }
     .two{
         width: 100%;
     }
+    .two p{
+        font-size: 14px;
+    }
     .skills{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .box{
+        padding: 10px 10px;
+        font-size: 13x;
     }
 }
 
@@ -398,7 +515,6 @@ footer{
     font-family: "Manrope", serif;
     font-size: .8rem;
 }
-
 @media (max-width: 1024px){
     .contact{
         padding: 10px 30px;
@@ -426,6 +542,7 @@ footer{
     }
     
 }
+
 @media (max-width: 800px){
     .contactText h2{
         font-size: 40px;
