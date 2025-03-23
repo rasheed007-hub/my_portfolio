@@ -62,11 +62,7 @@ body{
     color: #7aa7e9;
     font-size: 1rem;
 }
-.navItems div, span { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
-@keyframes navItems {
-    from { opacity: 0 }
-    to { opacity: 1 }
-}
+
 .about div, h1 { animation-name: home; animation-duration: 4s; animation-fill-mode: forwards; }
 @keyframes about {
     from { opacity: 0 }
