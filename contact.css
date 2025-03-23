@@ -600,6 +600,12 @@ footer{
     .input label{
         font-size: .8rem;
     }
+    .input input{
+        font-size: 14px;
+    }
+    textarea{
+        font-size: 14px;
+    }
     footer{
         margin-top: -40px;
         font-size: 13px;
