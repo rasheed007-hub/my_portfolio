@@ -230,9 +230,11 @@ body{
     }
 }
 @media (max-width:500px) {
-
     .navItems{
         padding: 0px 30px;
+    }
+    .navItems span{
+        font-size: .9rem;
     }
     .navList{
         display: none;
