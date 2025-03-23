@@ -373,7 +373,7 @@ body{
 }
 
 .skills{
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     font-weight: 500;
