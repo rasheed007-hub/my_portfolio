@@ -293,6 +293,9 @@ body{
     object-fit: contain;
     border-radius: 20px;
 }
+.imag{
+    display: none;
+}
 
 @media (max-width:1024px){
    .image{
@@ -302,12 +305,20 @@ body{
 
 @media (max-width:500px){
    .image{
-        width: 90%;
-        height: 50vh;
+        display: none;
     }
-    .image img{
-        height: 50vh;
+    .imag{
+        padding: 0px 30px;
+        display: block;
+        width: 100%;
+        margin-bottom: 2rem;
     }
+    .imag img{
+        height: 40%;
+        width: 100%;
+        border-radius: 10px;
+    }
+ 
 }
 #capble{
     border-block: 1px solid;
