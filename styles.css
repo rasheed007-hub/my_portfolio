@@ -343,7 +343,7 @@ body{
     transform: translateY(20px);
     transition: opacity 1s ease, transform 0.6s ease;
 }
-.app,.app0,.app1,.app2,.app3,.app4,.app5,.app6,.app7,.app8,.app9,.app10,.app11, .app12, .app13, .app15, .app16, .app17, .app18, .app19, .app20 {
+.app,.app0,.app1,.app2,.app3,.app4,.app5,.app6,.app7,.app8,.app9,.app10,.app11, .app12, .app13, .app15, .app16, .app17, .app18, .app19, .app20, .app21, .app22 {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 3s ease, transform 0.6s ease;
