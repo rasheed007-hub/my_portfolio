@@ -16,3 +16,16 @@ const observer = new IntersectionObserver(entries => {
 });
 
 hiddenTexts.forEach(hiddenText => observer.observe(hiddenText));
+
+document.getElementById("form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+  
+    const res = await fetch("http://127.0.0.1:8000/api/submit/", {
+      method: "POST",
+      body: formData
+    });
+  
+    const data = await res.json();
+    alert(data.message);
+  });
