@@ -224,7 +224,7 @@ body{
 
 @media(max-width:1024px) {
     .navItems{
-        padding: 10px 30px;
+        padding: 20px 30px;
     }
     .home{
         padding: 65px 30px;
