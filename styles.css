@@ -223,10 +223,9 @@ body{
 }
 
 @media(max-width:1024px) {
-    .navItems{
+    /* .navItems{
         padding: 10px 30px;
-
-    }
+    } */
     .home{
         padding: 65px 30px;
     }
