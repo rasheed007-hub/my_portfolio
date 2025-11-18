@@ -667,9 +667,15 @@ footer{
     flex-direction: column;
     gap: 10px;
 }
+.work ul li{
+    display: flex;
+    gap: 7px;
+}
+
 .pac{
     padding-bottom: 3px;
 }
+
 @media (max-width:1024px){
 
     .exper{
@@ -713,5 +719,7 @@ footer{
     }
     .work ul li{
         font-size: 13px;
+        gap: 2px;
     }
+
 }
