@@ -478,6 +478,7 @@ body{
 
 .contactText a {
     color: white;
+    text-decoration: underline;
 }
 
 .soc ul{
