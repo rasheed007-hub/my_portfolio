@@ -631,3 +631,87 @@ footer{
     }
     
 }
+#exper{
+    border-bottom: 1px solid;
+}
+.exper{
+    display: flex;
+    margin-block: 4rem;
+    justify-content: space-around;
+    align-items: start;
+}
+.experience{
+    text-transform: capitalize;
+    font-family: "Bebas Neue", serif;
+    width: 40%;
+}
+
+.experience h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.work{
+    width: 50%;
+    font-family: "Manrope", serif;
+    padding-top: 1rem;
+    font-style: normal;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.work ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pac{
+    padding-bottom: 3px;
+}
+@media (max-width:1024px){
+
+    .exper{
+        padding: 0px 30px;
+    }
+    .experience h1{
+        font-size: 50px;
+    }
+
+}
+@media (max-width:800px){
+
+    .exper{
+        padding: 0px 30px;
+    }
+    .experience h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px){
+
+    .exper{
+        padding: 0px 30px;
+        flex-direction: column;
+    }
+    .experience{
+        width: 100%;
+    }
+    .experience h1{
+        font-size: 2rem;
+    }
+    .work{
+        width: 100%;
+    }
+    .pac h3{
+        font-size: 1rem;
+    }
+    .pac p{
+        font-size: 0.8rem;
+    }
+    .work ul li{
+        font-size: 13px;
+    }
+}
