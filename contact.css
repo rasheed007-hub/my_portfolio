@@ -691,7 +691,7 @@ footer{
 }
 .work ul li{
     display: flex;
-    text-align: start;
+    align-items: start;
     gap: 7px;
 }
 
