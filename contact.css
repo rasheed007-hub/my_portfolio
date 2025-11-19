@@ -171,13 +171,18 @@ body{
     width: 12rem;
     border-radius: 25px;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-family: "Manrope", serif;
     font-weight: 900;
 }
 
 .links> a> i{
     margin-left: .1rem;
+}
+.links> a:hover{
+    background-color: white;
+    color: #7aa7e9;
+    transition: .8s;
 }
 
 .socail> ul{
@@ -386,6 +391,12 @@ body{
     border: 1px solid;
     border-radius: 30px;
     padding: 10px 20px;
+    cursor: pointer;
+}
+.box:hover{
+    border:1px solid #7aa7e9;
+    color: #7aa7e9;
+    transition: .8s;
 }
 
 @media (max-width:1024px){
@@ -480,6 +491,11 @@ body{
     color: white;
     text-decoration: underline;
 }
+.contactText a:hover{
+    color: #7aa7e9;
+    transition: .8s;
+
+}
 
 .soc ul{
     margin-top: 1rem;
@@ -539,9 +555,15 @@ form>button{
     height: 2.5rem;
     width: 7rem;
     border: none;
+    color: white;
     border-radius: 20px;
     text-transform: uppercase;
     cursor: pointer;
+}
+form>button:hover{
+    background-color: white;
+    color: #7aa7e9;
+    transition: .8s;
 }
 
 footer{
