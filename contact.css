@@ -691,8 +691,8 @@ footer{
 }
 .work ul li{
     display: flex;
-    align-items: flex-start;
-    gap: 7px;
+    align-items: center;
+    gap: 10px;
 }
 
 .pac{
@@ -742,7 +742,7 @@ footer{
     }
     .work ul li{
         font-size: 13px;
-        gap: 2px;
+        gap: 7px;
     }
 
 }
